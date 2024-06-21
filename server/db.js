@@ -7,7 +7,7 @@ const pool= new Pool({
     password:process.env.PASSWORD,
     host:process.env.HOST,
     port:process.env.DBPORT,
-    database:'todolist'
+    database:'todoapp'
 })
 
 module.exports = pool
